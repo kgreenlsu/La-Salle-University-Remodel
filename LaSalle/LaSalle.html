@@ -1,0 +1,516 @@
+﻿<!DOCTYPE html>
+
+<!-- Copyright (c) 2016 Kyle Green -->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>La Salle</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind+Vadodara' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+
+    <link rel="stylesheet" type="text/css" href="animate.css">
+ 
+    
+    <!-- Copyright (c) 2016 Kyle Green -->
+  <link rel="stylesheet" type="text/css" href="LaSalleStyle.css">
+
+
+    <!-- Copyright (c) 2016 Kyle Green -->
+  
+</head>
+<body>
+
+    <!-- Copyright (c) 2016 Kyle Green -->
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-right navbar-fixed-top text-center">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <i id="cogs" class="fa fa-bars fa-2x"></i>
+                </button>
+                <a class="navbar navbar-brand  navbar-left" title="La Salle Home" href="#home">
+                    <img class="img-responsive" src="la_salle_logo.gif" />
+                </a>
+            </div>
+            <div>
+                <div class="navbar navbar-right collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#admission">
+                                Admission
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu animated fadeInUp">
+                                <li><a target="_blank" href="http://www.lasalle.edu/admission/">Undergraduate</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/admission/transfer/">Transfer</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/admission/international/">International</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/grad/">Graduate Programs</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/post-baccalaureate-programs-and-certificates/">Post-Baccalaureate Programs</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/blog/event/busca-end-of-semester-gathering/">BUSCA</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#academics">
+                                Academics
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu animated fadeInUp">
+                                <li><a target="_blank" href="http://www.lasalle.edu/sas/">School of Arts & Sciences</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/business/#.Vv3BN_krLcs">School of Business</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/snhs/">School of Nursing and Health Sciences</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/adult-learner-programs/">Undergraduate Adult Learner</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/post-baccalaureate-programs-and-certificates/">Post-Baccalaureate Certificates</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#about">
+                                About
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu animated fadeInUp">
+                                <li><a target="_blank" href="http://www.lasalle.edu/museum/">Art Museum</a></li>
+                                <li><a target="_blank" href="http://www.fscdena.org/">Christian Brothers</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/communityservice/">Community Service</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/magazine/">News and Media</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/president/index.php?page=welcome">President</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/la-salle-university-mission-and-goals/">The University</a></li>
+                                </ul>
+                        </li>
+
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#lasallefor">
+                                La Salle For
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu animated fadeInUp">
+                                <li><a target="_blank" href="http://explorersconnect.lasalle.edu/s/1206/start.aspx">Alumni</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/information-for-faculty-and-staff/">Faculty & Staff</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/information-for-parents/">Parents & Family</a></li>
+                                <li><a target="_blank" href="http://www.lasalle.edu/information-for-prospective-students/">Prosepcetive Students</a></li>
+                                <li><a target="_blank" href="https://wa3.lasalle.edu/trustees/login/index/">Trustees</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="http://explorersconnect.lasalle.edu/s/1206/index.aspx?sid=1206&gid=1&pgid=2592">Donate <i class="fa fa-gift"></i></a></li>
+                        <li><a href="http://www.goexplorers.com/">Athletics <i class="fa fa-heartbeat"></i></a></li>
+                        <li><a target="_blank" href="https://lp5p-cas.lasalle.edu/cas-web/login?service=https%3A%2F%2Fmy.lasalle.edu%2Fc%2Fportal%2Flogin">MyLaSalle Portal <i class="fa fa-sign-in"></i></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--END NAVIGATION BAR -->
+
+
+
+    <div id="clearHead">
+        <div id="LSUheader">
+            La Salle At A Glance
+        </div>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+              </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="img-responsive fill" src="img0.jpg" alt="La Salle University" />
+
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="img-responsive fill" src="img1.jpg" alt="La Salle University" />
+
+                </div>
+
+                <div class="item">
+                    <img class="img-responsive fill" src="img2.jpg" alt="La Salle University" />
+                </div>
+
+                <div class="item">
+                    <img class="img-responsive fill" src="img3.jpg" alt="La Salle University" />
+                </div>
+
+                <div class="item">
+                    <img class="img-responsive fill" src="img4.jpg" alt="La Salle University" />
+                </div>
+
+                <div class="item">
+                    <img class="img-responsive fill" src="img5.jpg" alt="La Salle University" />
+                </div>
+
+                <div class="item">
+                    <img class="img-responsive fill" src="img6.jpg" alt="La Salle University" />
+                </div>
+
+
+            </div>
+
+
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
+        </div>
+
+    </div>
+
+
+
+
+    <div id="Content">
+
+        <hr />
+
+
+        <div id="contentSite" class="container-fluid ">
+            <div class="row-fluid">
+
+                <div class="col-md-4">
+                    <header class="events text-center">Events & Calendars</header>
+                    <br />
+
+                    <div class="list-group text-center">
+                        <a href="#" class="list-group-item">
+                            <div class="col-sm-6">
+                                <span class="fa fa-calendar fa-5x floatLeftEvent"></span>
+                            </div>
+
+                            <p class="eventText">Title</p>
+                            <p class="eventText">Time</p>
+                            <p class="eventText">Description</p>
+                        </a>
+
+                        <a href="#" class="list-group-item">
+                            <div class="col-sm-6">
+                                <span class="fa fa-calendar fa-5x floatLeftEvent"></span>
+                            </div>
+
+                            <p class="eventText">Title</p>
+                            <p class="eventText">Time</p>
+                            <p class="eventText">Description</p>
+                        </a>
+
+                        <a href="#" class="list-group-item">
+                            <div class="col-sm-6">
+                                <span class="fa fa-calendar fa-5x floatLeftEvent"></span>
+                            </div>
+
+                            <p class="eventText">Title</p>
+                            <p class="eventText">Time</p>
+                            <p class="eventText">Description</p>
+                        </a>
+                        <br />
+                        <button onclick="location.href = 'http://www.lasalle.edu/academic-calendar/';" class="btnEvent">View Events <i class="fa fa-angle-double-right"></i></button>
+                        <button onclick="location.href = 'http://www.lasalle.edu/calendar/';" class="btnEvent">View Calendar <i class="fa fa-angle-double-right"></i></button>
+
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <header class="YestoLaSalle text-center">Say #YestoLaSalle</header>
+                    <br />
+                    <div class="paddingColumn">
+
+                        <h4>Check out out La Salle and you’ll see that the decision is simple, just Say Yes to La Salle! And when you do, tell us about it! We would love to have you here. </h4>
+
+                        <br />
+                        <div onclick="location.href = 'http://www.lasalle.edu/admission/';" class="yesRow"><a href="http://www.lasalle.edu/admission/"><i class="fa fa-book"></i> Undergraduate <i class="rightFloat fa fa-arrow-right"></i></a></div>
+                        <hr />
+                        <div onclick="location.href = 'http://www.lasalle.edu/admission/transfer/';" class="yesRow"><a href="http://www.lasalle.edu/admission/transfer/"><i class="fa fa-exchange"></i> Transfer <i class="rightFloat fa fa-arrow-right"></i></a></div>
+                        <hr />
+                        <div onclick="location.href = 'http://www.lasalle.edu/grad/';" class="yesRow"><a href="http://www.lasalle.edu/grad/"><i class="fa fa-graduation-cap"></i> Graduate <i class="rightFloat fa fa-arrow-right"></i></a></div>
+                        <hr />
+                        <div onclick="location.href = 'http://www.lasalle.edu/admission/international';" class="yesRow"><a href="http://www.lasalle.edu/admission/international/"><i class="fa fa-book"></i> International <i class="rightFloat fa fa-arrow-right"></i></a></div>
+                        <hr />
+                        <div onclick="location.href = 'http://www.lasalle.edu/blog/event/busca-end-of-semester-gathering/';" class="yesRow"><a href="http://www.lasalle.edu/blog/event/busca-end-of-semester-gathering/"><i class="fa fa-globe"></i> BUSCA <i class="rightFloat fa fa-arrow-right"></i></a></div>
+                        <hr />
+                        <br />
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <header class="news text-center">News</header>
+                    <br />
+                    <div id="newsContainer" class="row-fluid col-lg-12">
+                        <p id="newsRow"><a href="http://www.lasalle.edu/blog/2016/03/30/forbes-ranks-la-salle-one-of-americas-best-value-colleges/">Forbes Ranks La Salle One of America’s Best Value Colleges</a></p>
+                    </div>
+                    <hr />
+
+                    <div id="newsContainer" class="row-fluid col-lg-12">
+                        <p id="newsRow"><a href="https://www.wistar.org/wistar-today/wistar-wire/2016-02-10/limitless-dynamic-partnerships-and-entrepreneurial-teachers-open">La Salle Partners with Wistar Institute for Life Sciences Innovation</a></p>
+                    </div>
+
+                    <hr />
+                    <div id="newsContainer" class="row-fluid col-lg-12">
+                        <p id="newsRow"><a href="http://www.goexplorers.com/news/2016/2/26/la-salle-announces-250-000-gift-to-mens-basketball-from-steve-degnan-87.aspx">La Salle Announces $250,000 Gift To Men’s Basketball From Steve Degnan, ’87</a></p>
+
+                    </div>
+                    <hr />
+                    <div id="newsContainer" class="row-fluid col-lg-12">
+
+                        <p id="newsRow"><a href="http://www.goexplorers.com/news/2016/2/29/general-la-salle-university-announces-the-appointment-of-william-bradshaw-to-the-role-of-interim-director-of-intercollegiate-athletics-and-recreation.aspx">La Salle University Announces the Appointment of William Bradshaw to the Role of Interim Director of Intercollegiate Athletics and Recreation</a></p>
+
+                    </div>
+                    <hr />
+                    <div id="newsContainer" class="row-fluid col-lg-12">
+                        <p id="newsRow"><a href="http://www.lasalle.edu/blog/2016/03/30/forbes-ranks-la-salle-one-of-americas-best-value-colleges/">Forbes Ranks La Salle One of America’s Best Value Colleges</a></p>
+                    </div>
+                    <hr />
+
+                    <div id="newsContainer" class="row-fluid col-lg-12">
+                        <p id="newsRow"><a href="https://www.wistar.org/wistar-today/wistar-wire/2016-02-10/limitless-dynamic-partnerships-and-entrepreneurial-teachers-open">La Salle Partners with Wistar Institute for Life Sciences Innovation</a></p>
+                    </div>
+
+                    <hr />
+                    <div id="newsContainer" class="row-fluid col-lg-12">
+                        <p id="newsRow"><a href="http://www.goexplorers.com/news/2016/2/26/la-salle-announces-250-000-gift-to-mens-basketball-from-steve-degnan-87.aspx">La Salle Announces $250,000 Gift To Men’s Basketball From Steve Degnan, ’87</a></p>
+
+                    </div>
+                    <hr />
+                    <br />
+                    <br />
+                    <button onclick="location.href = 'http://www.lasalle.edu/recent-news-releases/';" class="btnEvent">More News <i class="fa fa-angle-double-right"></i></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br />
+    <div id="" class="container ">
+
+        <div class="row">
+            <div class="col-md-3 text-center">
+
+                <!--USE THIS INSTEAD-->
+
+                <h3>STUDENT LIFE</h3>
+                <div class="panel panel-default">
+                    <img src="studentlife.jpg" class="img-responsive center-block" />
+                    <div class="panel-body text-center">Become more than just a college student. Your journey starts here. </div>
+                    <div onclick="location.href = 'http://www.lasalle.edu/admission/student-life/';" class="panel-footer ">
+                        Exerpience It <i class="fa fa-angle-double-right"></i>
+                    </div>
+
+                </div>
+
+                <!--USE THIS INSTEAD-->
+
+
+
+
+
+
+            </div>
+
+            <div class="col-md-3  text-center">
+
+                <h3>CAMPUS FACTS & MAP</h3>
+                <div class="panel panel-default">
+                    <img src="campus.jpg" class="img-responsive center-block" />
+                    <div class="panel-body text-center">Become more than just a college student. Your journey starts here. </div>
+                    <div onclick="location.href = 'http://www.lasalle.edu/admission/campus/';" class="panel-footer ">
+                        Campus Information <i class="fa fa-angle-double-right"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-3  text-center">
+
+                <h3>THE LASALLIAN DIFFERENCE</h3>
+                <div class="panel panel-default">
+                    <img src="education.png" class="img-responsive center-block" />
+                    <div class="panel-body">A Lasallian education has had an impact on the lives of more than 48,000 current La Salle alumni. </div>
+                    <div onclick="location.href = 'http://www.lasalle.edu/admission/the-lasallian-difference/';" class="panel-footer ">
+                        Learn More <i class="fa fa-angle-double-right"></i>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+            <div class="col-md-3 text-center">
+
+
+                <h3>AFFORDABILITY</h3>
+                <div class="panel panel-default">
+                    <img src="quicklinks.jpg" class="img-responsive center-block" />
+                    <div class="panel-body">Learn more about the many ways to afford a La Salle Education.</div>
+                    <div onclick="location.href = 'http://www.lasalle.edu/admission/affordability/';" class="panel-footer ">
+                        View Affordability <i class="fa fa-angle-double-right"></i>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+  
+
+
+    <hr />
+
+    <div id="genInfo" class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-sm-2">
+                <p id="linkHeader">Academics</p>
+                <span id="academicLinks"><a href="http://www.lasalle.edu/honors/">Honors Program</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/library/">Library</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/grad/">Graduate Studies</a></span><br />
+                <span id="academicLinks"><a href="http://studentaffairs.lasalle.edu/studyabroad/">International Studies</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/online-programs-courses/">Online Programs</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/provost-office/">Provost</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/academiclearningsupport/">Academic & Learning Support</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/academ/core/">Core Curriculum</a></span>
+
+                <br />
+                <br />
+            </div>
+
+            
+            <div class="col-sm-2">
+                <p id="linkHeader">Locations</p>
+                <span id="academicLinks"><a href="http://www.lasalle.edu/schools/cpcs/bucks/">Bucks County</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/admiss/grad/metroplex/">Montgomery County</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/business/programs/mba/mba-program-in-switzerland/#.VwVpVPkrLcs">MBA in Basel, Switzerland</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/schools/cpcs/content.php?section=grad&group=psych_prague&page=index">Clinical Counseling Psychology in Prauge, Czech Republic</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/schools/cpcs/content.php?section=grad&group=comm_prague&page=index">Professional Communication in Prauge, Czech Republic</a></span><br />
+                <br />
+                
+                <br />
+            </div>
+           
+
+            <div class="col-sm-2">
+                <p id="linkHeader">Resources</p>
+                <span id="academicLinks"><a href="http://www.lasalle.edu/advancement/">Advancement</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/campusmap/map.html">Campus Map</a></span><br />
+                <span id="academicLinks"><a href="http://lasalle.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=28551&catalogId=10001&langId=-1">Campus Store</a></span><br />
+                <span id="academicLinks"><a href="http://studentaffairs.lasalle.edu/career/">Career Services</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/schools/cpcs/conferencesandguests/">Conference & Guest Services</a></span><br />
+                <span id="academicLinks"><a href="http://lasalle.campusdish.com/">La Salle Dining</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/directions-to-main-campus/">Directions</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/financeadmin/hresources/jobpost.php">Emplyment Opportunities</a></span><br />
+                <br />
+
+            </div>
+
+            <div class="col-sm-2">
+                <p id="linkHeader">General Info</p>
+                <span id="academicLinks"><a href="http://www.lasalle.edu/directories/?sort=alpha">Directory</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/financialaid/">Financial Aid</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/registrar/">Registrar</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/financeadmin/security/index.php">Security & Safety</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/students/dean/">Student Affaris</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/technology/">Technology @ La Salle</a></span><br />
+                <span id="academicLinks"><a href="http://www.lasalle.edu/catalog/">University Catalogs</a></span><br />
+                
+                <br />
+            </div>
+
+
+
+            <div class="col-sm-2">
+                <p id="linkHeader">Contact Us</p>
+                <p id=""><i class="fa fa-map-marker"></i> 1900 West Olney Avenue </p>
+                <p id=""><i class="fa fa-building"></i> Philadelphia, PA 19141</p>
+                <p id="phoneLink"><i class="fa fa-mobile"></i> <a href="tel:215951000">(215)-951-1000</a></p>
+                <br />
+                <br />
+
+            </div>
+            <div class="col-sm-2">
+
+                <p id="linkHeader">Connect With Us</p>
+
+                <a id="links" target="_blank" href="https://www.facebook.com/lasalleuniversity"><i title="FaceBook" class="fa fa-facebook fa-2x socialMedia"></i></a>&nbsp
+                <a id="links" target="_blank" href="https://www.instagram.com/lasalleuniv/"><i title="Instagram" class="fa fa-instagram fa-2x socialMedia"></i></a>&nbsp
+                <a id="links" target="_blank" href="https://twitter.com/lasalleuniv"><i title="Twitter" class="fa fa-twitter fa-2x socialMedia"></i></a>&nbsp
+                <a id="links" target="_blank" href="https://www.youtube.com/channel/UCPc7OmrAmW2F6wnQ9wR3i_A"><i title="Youtube" class="fa fa-youtube-play fa-2x socialMedia"></i></a>&nbsp
+                <br />
+                <a id="links" target="_blank" href="https://www.linkedin.com/start/join?trk=login_reg_redirect&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fgroups%2F56995"><i title="LinkedIn" class="fa fa-linkedin fa-2x socialMedia"></i></a>&nbsp
+                <a id="links" target="_blank" href="https://www.flickr.com/photos/55011438@N07/sets/"><i title="Flickr" class="fa fa-flickr fa-2x socialMedia"></i></a>
+                <a id="links" target="_blank" href="https://www.pinterest.com/LaSalleAdmiss/"><i title="Pinterest" class="fa fa-pinterest fa-2x socialMedia"></i></a>
+                <a id="links" target="_blank" href="https://itunes.apple.com/us/app/id686160988?mt=8"><i title="Apple Store" class="fa fa-apple fa-2x socialMedia"></i></a>
+                <a id="links" target="_blank" href="https://play.google.com/store/apps/details?id=com.blackboard.mosaic.lasalle"><i title="Google Play" class="fa fa-google fa-2x socialMedia"></i></a>
+              </div>
+
+
+        </div>
+    </div>
+
+
+    <hr />
+
+    <div id="imgFooter" class="text-center">
+
+                <img src="footerImg.png" title="La Salle University" />
+        <br />
+        <br />
+        <p id="contactInfo">© Copyright 2016   All rights reserved.</p>
+        <p id="contactInfo">© Copyright 2016 Kyle Green All rights reserved.</p>
+
+       
+    </div>
+
+</body>
+</html>

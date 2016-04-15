@@ -1,0 +1,304 @@
+﻿ /*<!-- Copyright (c) 2016 Kyle Green -->*/
+     
+      .news {
+                font-size: 2em;
+                letter-spacing: .3em;
+                background-color: gold;
+                font-weight: 600;
+                color: navy;
+                border: 2px solid navy;
+            }
+
+            .events {
+                font-size: 2em;
+                letter-spacing: .11em;
+                background-color: gold;
+                font-weight: 600;
+                color: navy;
+                border: 2px solid navy;
+            }
+
+            .YestoLaSalle {
+                font-size: 2em;
+                background-color: gold;
+                font-weight: 600;
+                color: navy;
+                border: 2px solid navy;
+            }
+
+            #cogs {
+                color: navy;
+            }
+
+
+
+
+            .well {
+                /* border:none;*/
+                height: auto;
+                width: auto;
+                border-color: none;
+                box-shadow: none;
+                background-color: transparent;
+            }
+
+            .eventText {
+                display: block;
+                font-family: 'Lato', sans-serif;
+                font-size: 1.1em;
+                font-weight: 500;
+            }
+
+            .btnEvent {
+                font-family: 'Catamaran', sans-serif;
+                font-size: 1.3em;
+                font-weight: 500;
+                margin: 0 auto;
+                display: inline-block;
+                text-align: center;
+                align-content: center;
+            }
+
+            p:hover, p:active {
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: none;
+            }
+
+            a {
+                text-decoration: none;
+                color: none;
+            }
+
+            .rightFloat {
+                float: right;
+            }
+
+        .carousel img {
+             margin: 0 auto;
+            width: auto;
+            height: 600px;
+            max-height: 600px;
+        }
+
+            .carousel-indicators li {
+                visibility: hidden;
+            }
+
+            .item,
+            .active {
+                height: 100%;
+            }
+
+            .carousel-control.left, .carousel-control.right {
+                background-image: none;
+                color: navy;
+            }
+
+
+            .glyphicon {
+                color: gold;
+            }
+
+
+            .paddingColumn {
+                padding: 15px;
+            }
+
+            .yesRow {
+                font-family: 'Hind Vadodara', sans-serif;
+                font-size: 1.1em;
+            }
+
+                .yesRow:hover, .yesRow:active {
+                    background-color: #f7f6f6;
+                    cursor:pointer;
+                }
+
+            #newsRow {
+                font-family: 'Lato', sans-serif;
+                font-size: 1.1em;
+            }
+
+            .panel-body, .panel-footer {
+                outline: none;
+                border: none;
+                border-color: none;
+            }
+         
+
+            body > #Content {
+                padding-left: 1em;
+                padding-right: 1em;
+            }
+
+
+            #contactInfo {
+                font-family: 'Hind Vadodara', sans-serif;
+                font-size: 1.1em;
+            }
+
+            .col-sm-4 > #linkHeader {
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+            }
+
+            #linkHeader {
+                font-family: 'Hind Vadodara', sans-serif;
+                font-size: 1.5em;
+                text-decoration: underline;
+            }
+
+            #Links {
+                color: black;
+                font-size: 1em;
+            }
+
+
+
+            .btnEvent {
+                display: inline-block;
+                width: 200px;
+                padding: 8px;
+                background-color: navy;
+                color: #fff;
+                border: 2px solid #fff;
+                text-align: center;
+                outline: none;
+                text-decoration: none;
+                transition: background-color 0.2s ease-out, color 0.2s ease-out;
+            }
+
+                .btnEvent:hover,
+                .btnEvent:active {
+                    background-color: gold;
+                    border-radius: 2.5px;
+                    border-color: navy;
+                    color: #000;
+                    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+                }
+
+            #LSUheader {
+                font-family: 'Source Sans Pro', sans-serif;
+                background-color: navy;
+                text-align: center;
+                padding: .2em;
+                font-size: 2em;
+                color: white;
+                font-weight: 600;
+                border-top: 5px solid gold;
+                line-height: 1.5em;
+                word-spacing: .3em;
+            }
+
+            #topBanner {
+                display: inline;
+            }
+
+
+            .navbar {
+                padding-top: .2em;
+                font-size: 1.05em;
+                background-color: white;
+                font-family: 'Hind Vadodara', sans-serif;
+            }
+
+            .navbar-nav li:active,
+            .navbar-nav li:hover,
+            .navbar-nav li a:active,
+            .navbar-nav li a:hover {
+                background-color: white;
+                text-decoration: none;
+                color: navy;
+                transition: background-color 0.2s ease-out, color 0.2s ease-out;
+            }
+
+            @media (min-width: 979px) {
+                ul.nav li.dropdown:hover > ul.dropdown-menu {
+                    display: block;
+                }
+            }
+
+
+            
+        .dropdown-menu > li > a:hover {
+            border-bottom: 1px solid gold;
+        }
+
+
+            #clearHead {
+                padding-top: 6em;
+            }
+
+            .col-md-3 {
+                background-color: white;
+                padding: 1em;
+            }
+
+            .panel-default {
+                border-radius: 1px;
+            }
+
+            h3 {
+                font-size: 1.4em;
+                font-family: 'Hind Vadodara', sans-serif;
+                font-weight: 800;
+                text-transform: capitalize;
+            }
+
+            .panel-footer {
+                font-family: 'Catamaran', sans-serif;
+                font-size: 1.3em;
+                font-weight: 500;
+                margin: 0 auto;
+                text-align: center;
+                border: 2px solid #fff;
+                background-color: navy;
+                outline: none;
+                text-decoration: none;
+                padding: 8px;
+                transition: background-color 0.2s ease-out, color 0.2s ease-out;
+                color: #fff;
+            }
+
+                .panel-footer:hover,
+                .panel-footer:active {
+                    font-family: 'Catamaran', sans-serif;
+                    font-size: 1.3em;
+                    font-weight: 500;
+                    margin: 0 auto;
+                    background-color: gold;
+                    border-radius: 2.5px;
+                    border-color: navy;
+                    color: #000;
+                    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+                }
+
+
+        #imgFooter {
+            display: block;
+            margin: 0 auto;
+        }
+
+        #academicLinks{
+            display:contents;
+
+        }
+        span > a{
+            color:navy;
+        }
+          span > a:hover{
+            color:navy;
+            text-decoration:underline;
+        }
+         #phoneLink > a {
+             color:black;
+         } 
+          #phoneLink > a:hover,
+          #phoneLink > a:active {
+             color:black;
+             text-decoration:underline;
+         } 
+   
